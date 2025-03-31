@@ -1,0 +1,40 @@
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Django stuff
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Migrations - keep them
+# (Don't ignore them! So leave this out:
+# **/migrations/*.py)
+
+# IDE files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Node (if using Next.js in same repo)
+node_modules/
+.next/
+dist/
+.env.local
+
+# Environment files
+.env
+*.env
+
+# Static/media (if generated)
+staticfiles/
+media/
